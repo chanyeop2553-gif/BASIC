@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            h1 {
+                color: #ff0000;
+                background-color: aqua;
+                text-align: center;
+                /* 블록 속성에만 가능 - 가러정렬 */
+            }
+            a {
+                text-align: center;
+                background-color: red;
+            }
+            h2 {
+                font-size: 20px;
+                line-height: 80px;
+                /* 행간: line-height 단위: %/px 100%=1 */
+                letter-spacing: -1.5%;
+                /* 자간 */
+                column-count: 2;
+                /* 단수 */
+                column-gap: 10px;
+                /* eks rksrur */
+                text-indent: 50px; /* 들여쓰기  */
+            }
+            .trans1 {
+                text-transform: uppercase; /* 소문자 -> 대문자  */
+            }
+            .trans2 {
+                text-transform: lowercase; /* 대문자 -> 소문자  */
+            }
+            .trans3 {
+                text-transform: capitalize; /* 첫자만 대문자  */
+            }
+
+            #wrap {
+                width: 600px;
+                height: 300px;
+                background-color: #ff0000;
+                text-align: center;
+            }
+            .date {
+                background-color: aliceblue;
+                text-align: right;
+            }
+            .txt {
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>여자의 근로는 특별한 보호를 박으며</h1>
+        <a href="#">인라인</a>
+        <h2>
+            헌법개정안은 국회가 의결한 후 30일 이내에 국민투표에 붙여 국회의원선거권자 과반수의 투표와 투표자 과반수의
+            찬성을 얻어야 한다. 국가는 농수산물의 수급균형과 유통구조의 개선에 노력하여 가격안정을 도모함으로써
+            농·어민의 이익을 보호한다 헌법개정안은 국회가 의결한 후 30일 이내에 국민투표에 붙여 국회의원선거권자
+            과반수의 투표와 투표자 과반수의 찬성을 얻어야 한다. 국가는 농수산물의 수급균형과 유통구조의 개선에 노력하여
+            가격안정을 도모함으로써 농·어민의 이익을 보호한다 헌법개정안은 국회가 의결한 후 30일 이내에 국민투표에 붙여
+            국회의원선거권자 과반수의 투표와 투표자 과반수의 찬성을 얻어야 한다. 국가는 농수산물의 수급균형과 유통구조의
+            개선에 노력하여 가격안정을 도모함으로써 농·어민의 이익을 보호한다
+        </h2>
+        
+            <p class-"trans1">are you ready?</p>
+            <p class-"trans2">ARE YOU READY?</p>
+            <p class-"trans3">you ready?</p>
+        
+
+        <div id="wrap">
+            <p class="date">2026년 9월 23일</p>
+            <p class="txt">
+                국회의원선거권자 과반수의 투표와 투표자 과반수의 찬성을 얻어야 한다. 국가는 농수산물의 수급균형과
+                유통구조의 개선에 노력하여 가격안정을 도모함으로써 농·어민의 이익을 보호한다
+            </p>
+        </div>
+    </body>
+</html>

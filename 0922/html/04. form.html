@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form>아이디:<input type="text" /> 비밀번호: <input type="password" /></form>
+
+        <form action=""><input type="text" /> - 이름 <input type="text" />- 학번</form>
+        <hr>
+        <form action="">
+            <label for="">아이디</label>
+            <input type="text"/>
+            <br/>
+            <label for="pass">비밀번호</label>
+            <input type="password" id="pass"/>
+
+            <form action="">
+            아이디: <input type=""> <br>
+            패스워드: <input type="password"> <br>
+            이메일: <input type="email" /><br />
+            URL: <input type="url"> <br>
+            번호: <input type="tel"> <br>
+            색상:  <input type="color"> <br>
+            월:  <input type="month"> <br>
+            날짜: <input type="month"> <br>
+            주: <input type="week"> <br>
+            시간: <input type="time"> <br>
+            지역시간: <input type="datetime-local"> <br>
+            숫자: <input type="number" min="200" max= "320" step="5"/> <br>
+            범위: <input type="range" min="0" max="10" step="2" /> <br>
+            <input type="submit" value="SEND">
+            <input type="reset" value="RESET">
+            <input type="button" value="눌러보세요"/>
+            </form>
+            <button>버튼</button>
+            <button onlclick="alert('안녕하세요')"><img src="../img/Button.jpg" alt="" /></button>"
+            <form></form>
+            성별 <br>
+
+            <label for="male">남성</label> 
+            <input type="radio" name="gender id="male" checked/> <br>
+            <label for="male">여성</label> 
+            <input type="radio" name="gender id="female">
+            <!-- label의 for와 inout id가 같아야한다. -->
+            <!-- 두개의 radio의 name이 일치 -->
+            <!-- radio 숙성은 중보선택 물가능 -->
+            </form>
+
+            
+                <p>내가 좋아하는 과일은? (중복선택 가능)</p>
+                <input type="checkbox" name="fruits" value="apple"> 사과 <br>
+                <input type="checkbox" name="fruits" value="pear"> 배<br>
+                <input type="checkbox" name="fruits" value="Durian"> 두리안<br>
+                <input type="checkbox" name="fruits" value="Watermelon"> 수박<br>
+                <input type="checkbox" name="fruits" value="melon"> 멜론 <br>
+                <!-- checkbox는 중복선택 가능 -->
+                 <input type="submit" value="입력완료 onlclick="alert(입력완료했습니다)/>
+                 <form action="">
+                    <p>게시판</p>
+                    <textarea cols="30" rows="10"></textarea>
+                 </form>
+
+
+            <select>
+                <option value="kia">KIA</option>
+                <option value="Tesla">Tesla</option>
+                <option value="BYD">BYD</option>
+                <option value="BMW">BMW</option>
+                <option value="hyundai">HYUNDAI</option>
+                <select>
+                    <form action="">
+                    <input type="file" accept="image/png, image/jpeg"> <br>
+                    <input type="text" placeholder="검색해보세요">
+                    <input type="text" placeholder="반가워" readonly>
+                    </form>
+                </select>
+            </select>
+    </body>
+</html>
